@@ -1,0 +1,23 @@
+// Fonts
+@font-face {
+    font-family: myfont;
+    src: url('../fonts/Nickainley.ttf');
+}
+
+@font-face {
+    font-family: primerprint;
+    src: url('../fonts/primerprint.ttf');
+}
+
+@font-face {
+    font-family: aracne;
+    src: url('../fonts/aracne.ttf');
+}
+
+// Global style
+body {
+    color: blue;
+}
+h1 {
+    font-family: 'myfont';
+}

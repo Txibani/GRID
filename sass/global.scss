@@ -1,0 +1,101 @@
+
+@import 'components/grid';
+// Fonts
+@font-face {
+    font-family: myfont;
+    src: url('../fonts/Nickainley.ttf');
+}
+
+@font-face {
+    font-family: primerprint;
+    src: url('../fonts/primerprint.ttf');
+}
+
+@font-face {
+    font-family: aracne;
+    src: url('../fonts/aracne.ttf');
+}
+
+// Global style
+body {
+    color: rgb(32,32,32);
+    margin: 0;
+}
+h1 {
+    font-family: 'myfont';
+    text-align: center;
+}
+.box {
+    border: 1px solid #e0e0e0;
+    height: 8.3333333333vh;
+    .col1 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col2 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col3 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col4{
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col5 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col6 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col7 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col8 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col9 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col10 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col11 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}
+.box {
+    .col12 {
+        height: 8.3333333333vh;
+        border: 1px solid #e0e0e0;
+    }
+}

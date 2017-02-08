@@ -1,0 +1,169 @@
+/*
+    Main wrapper named box will limit the content to 1200px;
+    Grid will have 12 columns named col1, col2... etc; Need to be positioned inside a box div
+    Considered only 2 views, large screens(over 780px) and small screens(less than 780px)
+*/
+/* line 6, ../sass/components/_grid.scss */
+.box {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 13, ../sass/components/_grid.scss */
+.box .col {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+/* line 18, ../sass/components/_grid.scss */
+.box .col1 {
+  width: 8.3333333333%;
+}
+/* line 21, ../sass/components/_grid.scss */
+.box .col2 {
+  width: 16.6666666667%;
+}
+/* line 24, ../sass/components/_grid.scss */
+.box .col3 {
+  width: 25%;
+}
+/* line 27, ../sass/components/_grid.scss */
+.box .col4 {
+  width: 33.3333333333%;
+}
+/* line 30, ../sass/components/_grid.scss */
+.box .col5 {
+  width: 41.6666666667%;
+}
+/* line 33, ../sass/components/_grid.scss */
+.box .col6 {
+  width: 50%;
+}
+/* line 36, ../sass/components/_grid.scss */
+.box .col7 {
+  width: 58.3333333333%;
+}
+/* line 39, ../sass/components/_grid.scss */
+.box .col8 {
+  width: 66.6666666667%;
+}
+/* line 42, ../sass/components/_grid.scss */
+.box .col9 {
+  width: 75%;
+}
+/* line 45, ../sass/components/_grid.scss */
+.box .col10 {
+  width: 83.3333333333%;
+}
+/* line 48, ../sass/components/_grid.scss */
+.box .col11 {
+  width: 91.6666666667%;
+}
+/* line 51, ../sass/components/_grid.scss */
+.box .col12 {
+  width: 100%;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/Nickainley.ttf");
+}
+@font-face {
+  font-family: primerprint;
+  src: url("../fonts/primerprint.ttf");
+}
+@font-face {
+  font-family: aracne;
+  src: url("../fonts/aracne.ttf");
+}
+/* line 20, ../sass/global.scss */
+body {
+  color: #202020;
+  margin: 0;
+}
+
+/* line 24, ../sass/global.scss */
+h1 {
+  font-family: 'myfont';
+  text-align: center;
+}
+
+/* line 28, ../sass/global.scss */
+.box {
+  border: 1px solid #e0e0e0;
+  height: 8.3333333333vh;
+}
+/* line 31, ../sass/global.scss */
+.box .col1 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 37, ../sass/global.scss */
+.box .col2 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 43, ../sass/global.scss */
+.box .col3 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 49, ../sass/global.scss */
+.box .col4 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 55, ../sass/global.scss */
+.box .col5 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 61, ../sass/global.scss */
+.box .col6 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 67, ../sass/global.scss */
+.box .col7 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 73, ../sass/global.scss */
+.box .col8 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 79, ../sass/global.scss */
+.box .col9 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 85, ../sass/global.scss */
+.box .col10 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 91, ../sass/global.scss */
+.box .col11 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
+
+/* line 97, ../sass/global.scss */
+.box .col12 {
+  height: 8.3333333333vh;
+  border: 1px solid #e0e0e0;
+}
